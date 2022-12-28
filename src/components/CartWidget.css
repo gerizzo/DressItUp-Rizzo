@@ -1,0 +1,9 @@
+.flexContainer {
+    display: flex; 
+    align-items: center;
+    color: greenyellow;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
