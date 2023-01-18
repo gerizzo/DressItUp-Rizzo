@@ -1,7 +1,7 @@
 import {BsCart} from "react-icons/bs";
 import './CartWidget.css'
 
-const CartWidget = () => {
+const CartWidget = (props) => {
     let clickeado = () => {
         alert('Proximamente...')
     }

@@ -1,7 +1,7 @@
 .flexContainer {
     display: flex; 
     align-items: center;
-    color: greenyellow;
+    color: black;
 }
 
 .pointer:hover {

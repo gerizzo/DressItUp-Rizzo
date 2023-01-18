@@ -1,0 +1,23 @@
+.controlesItemCount {
+    cursor: pointer;
+    margin-left: 19px;
+    margin-right: 19px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.controlesItemCount:hover {
+    background-color: rgb(208, 228, 235);
+}
+
+.controlesItemCount:active {
+    background-color: rgb(162, 178, 183);
+}
+
+p {
+    font-size: 1.2rem;
+}
+

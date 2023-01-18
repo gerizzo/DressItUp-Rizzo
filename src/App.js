@@ -1,14 +1,21 @@
 import './App.css';
-import NavBar from './components/NavBar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ItemListContainer from './components/ItemListContainer';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import NavBar from './components/NavBar/NavBar';
+
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <NavBar></NavBar>
-      <ItemListContainer estado="EN MANTENIMIENTO"></ItemListContainer>
-    </div>
+      <Routes>
+        <Route path='/' element={<ItemListContainer/>}/>
+        <Route path='newArrivals' element={<ItemListContainer/>}/>
+      </Routes>
+    </BrowserRouter>
+
+
   );
 }
 
