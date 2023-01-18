@@ -21,7 +21,6 @@ const NavBar = () => {
               </div>
               <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="ml-auto">
-                      <Nav.Link href="/newArrivals">NEW ARRIVALS</Nav.Link>
                       <NavDropdown title="CLOTHES" id="basic-nav-dropdown">
                           <NavDropdown.Item href="#action/3.1">T-SHIRTS</NavDropdown.Item>
                           <NavDropdown.Item href="#action/3.2">PANTS</NavDropdown.Item>

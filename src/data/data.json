@@ -1,7 +1,7 @@
 [{
     "id": 1, 
     "nombre": "Buzo Hoodie Classic",
-    "color": "Naranja",
+    "color": "Marrón",
     "precio": 4000,
     "tipoPrenda": "Buzos",
     "img": "https://deliverind.com.ar/wp-content/uploads/2022/03/HOODIE-CLASSIC-FRISADO-22-TOFFEE-scaled.jpg",
@@ -10,7 +10,7 @@
 {
     "id": 2, 
     "nombre": "Buzo Hoodie Classic",
-    "color": "Violeta",
+    "color": "Negro",
     "tipoPrenda": "Buzos",
     "precio": 3500,
     "img": "https://deliverind.com.ar/wp-content/uploads/2022/04/HOODIE-CLASSIC-FRISADO-22-GRIS-FOX-51-scaled.jpg",
@@ -20,7 +20,7 @@
 {
     "id": 3, 
     "nombre": "Buzo Hoodie Classic",
-    "color": "Celeste",
+    "color": "Beige",
     "precio": 3500,
     "tipoPrenda": "Buzos",
     "img": "https://deliverind.com.ar/wp-content/uploads/2022/04/HOODIE-CLASSIC-FRISADO-22-59-VINTAGE-KHAKI-scaled.jpg",
