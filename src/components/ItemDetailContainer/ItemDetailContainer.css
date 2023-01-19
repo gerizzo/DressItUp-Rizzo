@@ -1,0 +1,14 @@
+.linkNavBar {
+    text-decoration: none;
+}
+.fondo:active {
+    background-color: whitesmoke;
+}
+
+.inactive {
+    color: black;
+}
+
+.active {
+    color: blue;
+}

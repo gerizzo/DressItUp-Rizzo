@@ -1,8 +1,7 @@
 import ItemList from '../ItemList/ItemList';
 import { Container } from 'react-bootstrap';
 
-const ItemListContainer = (props) => {
-
+const ItemListContainer = () => {
   return (
     <div>
       <Container fluid>

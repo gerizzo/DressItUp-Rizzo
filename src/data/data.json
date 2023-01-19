@@ -3,7 +3,7 @@
     "nombre": "Buzo Hoodie Classic",
     "color": "Marrón",
     "precio": 4000,
-    "tipoPrenda": "Buzos",
+    "categoria": "hoodies",
     "img": "https://deliverind.com.ar/wp-content/uploads/2022/03/HOODIE-CLASSIC-FRISADO-22-TOFFEE-scaled.jpg",
     "stock": 7
 },
@@ -11,7 +11,7 @@
     "id": 2, 
     "nombre": "Buzo Hoodie Classic",
     "color": "Negro",
-    "tipoPrenda": "Buzos",
+    "categoria": "hoodies",
     "precio": 3500,
     "img": "https://deliverind.com.ar/wp-content/uploads/2022/04/HOODIE-CLASSIC-FRISADO-22-GRIS-FOX-51-scaled.jpg",
     "stock": 3
@@ -22,7 +22,7 @@
     "nombre": "Buzo Hoodie Classic",
     "color": "Beige",
     "precio": 3500,
-    "tipoPrenda": "Buzos",
+    "categoria": "hoodies",
     "img": "https://deliverind.com.ar/wp-content/uploads/2022/04/HOODIE-CLASSIC-FRISADO-22-59-VINTAGE-KHAKI-scaled.jpg",
     "stock": 5
 },
@@ -31,7 +31,7 @@
     "nombre": "Jogger Regular Frisado",
     "color": "Rojo",
     "precio": 1500,
-    "tipoPrenda": "Pantalones",
+    "categoria": "pants",
     "img": "https://deliverind.com.ar/wp-content/uploads/2021/09/JOGGER-SUPERSOFT-CIRUELA-scaled.jpg",
     "stock": 5
 },
@@ -40,7 +40,7 @@
     "nombre": "Jogger Regular Frisado",
     "color": "Violeta",
     "precio": 2500,
-    "tipoPrenda": "Pantalones",
+    "categoria": "pants",
     "img": "https://deliverind.com.ar/wp-content/uploads/2021/09/JOGGER-REGULAR-CROCUS-PETAL-scaled.jpg",
     "stock": 2
 },
@@ -49,7 +49,7 @@
     "nombre": "Jogger Regular Frisado",
     "color": "Naranja",
     "precio": 2500,
-    "tipoPrenda": "Pantalones",
+    "categoria": "pants",
     "img": "https://deliverind.com.ar/wp-content/uploads/2021/09/JOGGER-REGULAR-BOSSA-NOVA-scaled.jpg",
     "stock": 3
 },
@@ -58,7 +58,7 @@
     "nombre": "Remera Ultra Wide",
     "color": "Naranja",
     "precio": 4000,
-    "tipoPrenda": "Remeras",
+    "categoria": "shirts",
     "img": "https://deliverind.com.ar/wp-content/uploads/2023/01/REMERON-ULTRA-WIDE-08-Shocking-orange-scaled.jpg",
     "stock": 5
 },
@@ -67,7 +67,7 @@
     "nombre": "Remera Ultra Wide",
     "color": "Verde",
     "precio": 4000,
-    "tipoPrenda": "Remeras",
+    "categoria": "shirts",
     "img": "https://deliverind.com.ar/wp-content/uploads/2023/01/REMERON-ULTRA-WIDE-05-Verde-botella-scaled.jpg",
     "stock": 2
 },
@@ -76,7 +76,7 @@
     "nombre": "Remera Ultra Wide",
     "color": "Bordo",
     "precio": 4000,
-    "tipoPrenda": "Remeras",
+    "categoria": "shirts",
     "img": "https://deliverind.com.ar/wp-content/uploads/2023/01/REMERON-ULTRA-WIDE-24-Bordo-sy-scaled.jpg",
     "stock": 10
 }]
