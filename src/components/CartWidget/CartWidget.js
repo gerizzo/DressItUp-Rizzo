@@ -1,14 +1,15 @@
 import {BsCart} from "react-icons/bs";
 import './CartWidget.css'
+import { useContext } from "react";
+import cartContext from "../../context/cartContext";
 
 const CartWidget = (props) => {
-    let clickeado = () => {
-        alert('Proximamente...')
-    }
+  const { cart } = useContext(cartContext);
+
   return (
     <div className="flexContainer">
-        <BsCart className="pointer" onClick={clickeado}></BsCart>
-        <p>0</p>
+        <BsCart className="pointer"></BsCart>
+        <p>{cart.length}</p>
     </div>
   )
 }

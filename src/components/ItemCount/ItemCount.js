@@ -1,12 +1,11 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState} from 'react';
 import './ItemCount.css';
-import { Button} from 'react-bootstrap';
 
 const ItemCount = ({ stock , onAdd}) => {
-  const [contador, setContador] = useState(0);
+  const [contador, setContador] = useState(1);
   const restar = () => {
-      if (contador !== 0) {
+      if (contador !== 1) {
           setContador(contador - 1);
       }
   }
@@ -15,6 +14,11 @@ const ItemCount = ({ stock , onAdd}) => {
           setContador(contador + 1);
       }
   }
+  
+  React.useEffect(() => {
+    onAdd(contador);
+  }, [contador, onAdd]);
+  
   return (
       <div>
           <div className='d-flex justify-content-center'>
@@ -22,7 +26,6 @@ const ItemCount = ({ stock , onAdd}) => {
               <p>{contador}</p>
               <button className='controlesItemCount' style={{ width: '38px' }} onClick={() => sumar()}>+</button>
           </div>
-          <Button variant="primary" className='buttonCard' onClick={() => onAdd(contador)}>Añadir al Carro</Button>
       </div>
   )
 }

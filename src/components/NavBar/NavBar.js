@@ -22,9 +22,9 @@ const NavBar = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <NavLink activeclassname="active" className="inactive linkNavBar" to="category/shirts">T-SHIRTS</NavLink>
-                    <NavLink activeclassname="active" className="inactive linkNavBar" to="category/pants">PANTS</NavLink>
-                    <NavLink activeclassname="active" className="inactive linkNavBar" to="category/hoodies">HOODIES</NavLink>
+                    <NavLink activeclassName="active" className="inactive linkNavBar" to="/category/shirts">T-SHIRTS</NavLink>
+                    <NavLink activeclassName="active" className="inactive linkNavBar" to="/category/pants">PANTS</NavLink>
+                    <NavLink activeclassName="active" className="inactive linkNavBar" to="/category/hoodies">HOODIES</NavLink>
                 </Nav>
             </Navbar.Collapse>
             <CarritoDesplegable/>
