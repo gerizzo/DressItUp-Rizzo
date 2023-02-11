@@ -18,7 +18,7 @@ export const ItemDetail = ({product}) => {
           <h1>{product.nombre}</h1>
           <h1>{product.color}</h1>
           <h1>${product.precio}</h1>
-          <ItemCount stock={product.stock} onAdd={updateContador} />
+          <ItemCount stock={product.stock} onAdd={updateContador}/>
           <Button variant="primary" className='button' onClick={() => addItem(product, contador)}>Agregar al Carrito</Button>
         </div>
     </div>
