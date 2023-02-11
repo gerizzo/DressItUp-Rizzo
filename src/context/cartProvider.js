@@ -14,6 +14,10 @@ const CartProvider = ({children}) => {
         setCart([...cart, newProduct]);
     };
 
+    const restarCantidad = (item, quantity) => {
+        
+    }
+
     // VACIAR CARRITO
 
     const clearCart = () => {
